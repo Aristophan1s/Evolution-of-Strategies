@@ -5,6 +5,7 @@ This repository holds my projects related to evolutionary algorithms.
 Currently I implemented a program simulating iterative prisoners' dilemma that is similar to the one described in chapter 12 of The Selfish Gene by Richard Dawkins (40th Anniversary Edition). The pay off table for both cooperating is 3; for defecting while the opponent cooperating, 5; for cooperating while the opponent defecting, 0; and for both defecting, 1. The number of iterations is set to 100 rounds. 
 
 The evolutionary part of this program is briefly: 
+
     1. For each strategy, it will be instantiated as a species living in an ecosystem with another competing speices, which is the instatiation of another strategy. (Currently I only implemented the simulation of a 2-species competition)
 
     2. In the beginning, the user will specify the strategies used by the two species and the respective population of the two species. 
