@@ -24,13 +24,14 @@ http://www.prisoners-dilemma.com/common-strategy/
 
 Usage: 
 
-use the makefile command to compile:
-`make`
-to run the executable, type:
+use `make` to compile and 
+to run the executable, use 
 `/evo [Species A type] [numSpeciesA] [Species B type] [numSpecesB] [numGeneration]`
+
 The species types are represented as integers, and the indices for each strategy are (1) All Cooperation, (2) All Defect, (3) Tit for Tat, (4) Tit for two Tats, (5) Grim Trigger, (6) Naive Prober and (7) Random.
-For example: 
+
+For example, 
 `./evo 2 111 6 388 100` 
-111 individuals of Species A which uses the strategy of Tit for Tat are put into the ecosystem with 388 individuals of Species B which uses the random strategy. The simulation will run for 100 generations. 
+means 111 individuals of Species A which uses the strategy of Tit for Tat are put into the ecosystem with 388 individuals of Species B which uses the random strategy. The simulation will run for 100 generations. 
 
 Please report any bugs to tianze.hua@tufts.edu
