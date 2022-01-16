@@ -26,7 +26,7 @@ Usage:
 
 use `make` to compile and 
 to run the executable, use 
-`/evo [Species A type] [numSpeciesA] [Species B type] [numSpecesB] [numGeneration]`
+`./evo [Species A type] [numSpeciesA] [Species B type] [numSpecesB] [numGeneration]`
 
 The species types are represented as integers, and the indices for each strategy are (1) All Cooperation, (2) All Defect, (3) Tit for Tat, (4) Tit for two Tats, (5) Grim Trigger, (6) Naive Prober and (7) Random.
 
