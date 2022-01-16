@@ -10,10 +10,10 @@ Confrontation::Confrontation(Strategy *a, Strategy *b, unsigned nRounds)
     one = a;
     two = b;
     numRounds = nRounds;
-    cc = 5;
-    dc = 10;
+    cc = 3;
+    dc = 5;
     cd = 0;
-    dd = 2;
+    dd = 1;
 }
 
 void Confrontation::reset(Strategy *a, Strategy *b, unsigned nRounds)
