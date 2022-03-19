@@ -1,4 +1,4 @@
-# Evolution-Algo
+# Evolution-of-Strategies
 
 This repository holds my projects related to evolutionary algorithms.
 
